@@ -1,11 +1,12 @@
 import React from "react"
+import Navbar from "./components/Navbar"
 
-export default function Home() {
+import "bootstrap/dist/css/bootstrap.min.css"
+
+export default function App() {
   return (
-    <div className="mt-2">
-      <p className="lead">
-        Hello World
-      </p>
+    <div>
+      <Navbar />
     </div>
   )
 }
