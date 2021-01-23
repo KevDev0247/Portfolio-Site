@@ -11,7 +11,7 @@ export default function App() {
         <title>Kevin Zhijun Wang</title>
       </Helmet>
 
-      <div className="min-vh-100" style={{ backgroundImage: `url(${require("./imgs/background_1.png")})` }}>
+      <div className="min-vh-100">
         <Navbar />
         <Home />
       </div>

@@ -31,7 +31,7 @@ function Home() {
 
     return (
         <div>
-            <div className="home container-fluid my-5 pt-lg-5 pb-5">
+            <div className="home container-fluid my-5 pt-lg-5 pb-5" style={{ backgroundImage: `url(${require("../../imgs/background_1.png")})` }}>
                 <div className="row pt-5">
                     <div className="offset-xl-2 col-xl-4 offset-lg-1 col-lg-6 offset-md-1 col-md-6 offset-sm-1 col-sm-10 offset-1 col-10 pb-5">
                         <h1 className="home-intro">
@@ -49,6 +49,7 @@ function Home() {
                         <a aria-label={"Email"} href="mailto:zhijunwang2002@gmail.com"><FaEnvelope size={32} color={"#deddcc"} className="mt-5 mr-5 grow-hover-effect"/></a>
                         <a aria-label={"Github"} href="https://github.com/KevDev0247"><FaGithub size={32} color={"#9413f0"} className="mt-5 mr-5 grow-hover-effect"/></a>
                         <a aria-label={"Medium"} href="https://donkevin1980s.medium.com/"><FaMedium size={32} color={"#ffffff"} className="mt-5 mr-5 grow-hover-effect"/></a>
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-center">
                         <img src={profilePic} alt="Me" className="profile-picture p-auto"/>
