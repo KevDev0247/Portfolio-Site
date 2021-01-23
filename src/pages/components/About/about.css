@@ -1,0 +1,64 @@
+.subheader {
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.about-content {
+    font-family: Roboto, sans-serif !important;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+/* Mobile devices, portrait */
+@media only screen and (min-device-width : 250px) and (max-device-width : 480px) and (orientation: portrait) {
+    .skillbar-label {
+        border-radius: 5px;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 35%;
+        height: 100%;
+        color: white;
+    }
+
+    .about-content {
+        font-size: 1.1rem;
+    }
+}
+
+/* Tablets, portrait */
+@media only screen and (min-device-width : 481px) and (max-device-width : 880px) and (orientation: portrait) {
+    .skillbar-label {
+        border-radius: 5px;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25%;
+        height: 100%;
+        color: white;
+    }
+
+    .about-content {
+        font-size: 1.1rem;
+    }
+}
+
+/* Mobile devices, landscape */
+@media only screen and (min-device-width : 250px) and (max-device-width : 780px) and (orientation: landscape) {
+    .skillbar-label {
+        border-radius: 5px;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 27%;
+        height: 100%;
+        color: white;
+    }
+
+    .about-content {
+        font-size: 1.1rem;
+    }
+}

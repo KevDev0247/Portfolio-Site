@@ -12,7 +12,7 @@ export default function App() {
         <title>Kevin Zhijun Wang</title>
       </Helmet>
 
-      <div className="min-vh-100">
+      <div style={{ backgroundColor:"#000000" }}>
         <Navbar />
         <Home />
         <About />

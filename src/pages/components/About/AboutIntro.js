@@ -14,7 +14,7 @@ function AboutIntro() {
                     I have a strong interest in software engineering with experiences in clinical research, finance, and manufacturing sectors. 
                     In the future, I plan to specialize in machine learning or AI to extend their unparalleled power into different industries.
                     <br/><br/>
-                    As a software engineer by trade, I have extensive knowledge of full stack web engineering with experiences in multiple tech stack.
+                    As a software engineer, I have extensive knowledge of full stack web engineering with experiences in multiple tech stack.
                     I can work on 3 backend tech stacks --- MERN stack, Java with Springboot, and C# with ASP.NET. For frontend, I can do both 
                     Typescript and JavaScript with Angular, React, or traditional AJAX style frontend. Android development is another specialty of mine. 
                     In addition to the tech stacks, I also have a firm understanding in design patterns, architecture, and fundamental algorithms as well as data structures.
