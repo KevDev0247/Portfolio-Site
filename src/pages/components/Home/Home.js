@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { FaEnvelope, FaGithub, FaMedium } from "react-icons/fa"
 
+import { FaEnvelope, FaGithub, FaMedium } from "react-icons/fa"
+import profilePic from "../../imgs/profile-pic.jpg"
 import "./home.css"
 
 function Home() {
-    const options = ["Full Stack Developer", "Android Developer", "ML & AI Enthusiast"];
+    const options = ["Full Stack Developer", "Android Developer"];
     const [index, setIndex] = useState(0);
     const [bio, setBio] = useState(options[0]);
 
@@ -48,6 +49,9 @@ function Home() {
                         <a aria-label={"Email"} href="mailto:zhijunwang2002@gmail.com"><FaEnvelope size={32} color={"#deddcc"} className="mt-5 mr-5 grow-hover-effect"/></a>
                         <a aria-label={"Github"} href="https://github.com/KevDev0247"><FaGithub size={32} color={"#9413f0"} className="mt-5 mr-5 grow-hover-effect"/></a>
                         <a aria-label={"Medium"} href="https://donkevin1980s.medium.com/"><FaMedium size={32} color={"#ffffff"} className="mt-5 mr-5 grow-hover-effect"/></a>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-center">
+                        <img src={profilePic} alt="Me" className="profile-picture p-auto"/>
                     </div>
                 </div>
             </div>

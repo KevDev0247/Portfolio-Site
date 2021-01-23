@@ -10,6 +10,13 @@
     color: #ffffff;
 }
 
+.profile-picture {
+    border-radius: 50%;
+    border-style: solid;
+    width: 225px;
+    height: 225px;
+}
+
 .home-bio-animation {
     opacity: 1;
     animation: fadeInAndOut 3.5s ease-in;
